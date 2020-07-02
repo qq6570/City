@@ -1,0 +1,6 @@
+framework module LYCity {
+  umbrella header "LYCity-umbrella.h"
+
+  export *
+  module * { export * }
+}

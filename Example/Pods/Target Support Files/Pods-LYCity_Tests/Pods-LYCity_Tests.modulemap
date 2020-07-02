@@ -1,0 +1,6 @@
+framework module Pods_LYCity_Tests {
+  umbrella header "Pods-LYCity_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

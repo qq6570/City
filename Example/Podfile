@@ -1,0 +1,18 @@
+use_frameworks!
+
+sources 'https://github.com/qq6570/lySpecs.git'
+
+platform :ios, '8.0'
+
+target 'LYCity_Example' do
+  pod 'LYCity', :path => '../'
+  pod 'LanYouTest'
+  target 'LYCity_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end

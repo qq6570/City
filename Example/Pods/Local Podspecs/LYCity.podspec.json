@@ -1,0 +1,22 @@
+{
+  "name": "LYCity",
+  "version": "0.1.0",
+  "summary": "A short description of LYCity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qq6570/lySpecs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "657035229@qq.com": "764974932@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/qq6570/lySpecs.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYCity/Classes/**/*"
+}
